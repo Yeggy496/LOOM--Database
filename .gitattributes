@@ -1,0 +1,4 @@
+* text=auto eol=lf
+exports/** -text whitespace=cr-at-eol
+*.db binary
+*.jpg binary

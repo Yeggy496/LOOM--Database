@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "syn-001",
+      "title": "离线收件箱",
+      "body": "没网的时候先把想法存本地，联网以后再上传。上传失败别让用户重新输入。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "product",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "希望离线保存想法，联网上传，失败时保留原输入。",
+        "category": "idea",
+        "tags": [
+          "离线同步",
+          "收件箱"
+        ]
+      }
+    },
+    {
+      "id": "syn-002",
+      "title": "上传重复问题",
+      "body": "同一条速记连续点两次发送，会不会在云端生成两条？想找一种去重办法。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "product",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "提出重复发送可能产生重复记录的问题，希望解决。",
+        "category": "question",
+        "tags": [
+          "幂等",
+          "重复提交"
+        ]
+      }
+    },
+    {
+      "id": "syn-003",
+      "title": "标注协作",
+      "body": "我们两个人一起改标签时，后保存的不要直接覆盖前一个人的版本，先提示冲突。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "product",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "希望多人编辑标签时检查版本冲突。",
+        "category": "idea",
+        "tags": [
+          "标注协作",
+          "版本冲突"
+        ]
+      }
+    },
+    {
+      "id": "syn-004",
+      "title": "摘要忠实度",
+      "body": "摘要别把我的疑问句改成结论；比如“是不是缓存问题”仍然要保留不确定。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "product",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "要求摘要保留疑问和不确定性。",
+        "category": "idea",
+        "tags": [
+          "摘要忠实度",
+          "不确定性"
+        ]
+      }
+    },
+    {
+      "id": "syn-005",
+      "title": "上课速记",
+      "body": "数据库课：事务是整体提交或整体回滚。还没弄明白隔离级别，下次查。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "study",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "记录事务整体提交或回滚，并留下隔离级别的待查问题。",
+        "category": "knowledge",
+        "tags": [
+          "学习",
+          "事务"
+        ]
+      }
+    },
+    {
+      "id": "syn-006",
+      "title": "待查资料",
+      "body": "周末找两篇关于间隔复习的文章，记一下它们是否真的做过对照实验。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "study",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "计划周末查找间隔复习文章并关注对照实验。",
+        "category": "task",
+        "tags": [
+          "学习",
+          "间隔复习"
+        ]
+      }
+    },
+    {
+      "id": "syn-007",
+      "title": "考试复习",
+      "body": "先复习容易混淆的概念，再做练习；这个方法要试一周看看是否有效。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "study",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "准备尝试先复习易混概念再做练习，并观察一周。",
+        "category": "idea",
+        "tags": [
+          "学习",
+          "复习计划"
+        ]
+      }
+    },
+    {
+      "id": "syn-008",
+      "title": "实验记录疑问",
+      "body": "同一组参数结果差很多，可能是随机种子没固定？下次先记下种子再跑。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "study",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "怀疑实验差异与随机种子有关，计划记录种子后再运行。",
+        "category": "question",
+        "tags": [
+          "实验记录",
+          "随机种子"
+        ]
+      }
+    },
+    {
+      "id": "syn-009",
+      "title": "小组演示准备",
+      "body": "周五演示前检查三件事：样本能导入、浏览页能打开、演示数据别混进真实账号。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "team",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "计划在周五演示前检查导入、浏览页和演示数据隔离。",
+        "category": "task",
+        "tags": [
+          "项目协作",
+          "演示"
+        ]
+      }
+    },
+    {
+      "id": "syn-010",
+      "title": "讨论安排",
+      "body": "下周小组讨论先看数据库字段，再确认接口返回格式；具体时间还没定。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "team",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "计划下周讨论数据库字段与接口格式，具体时间未定。",
+        "category": "event",
+        "tags": [
+          "项目协作",
+          "讨论"
+        ]
+      }
+    },
+    {
+      "id": "syn-011",
+      "title": "Voice-note mock transcript",
+      "body": "On the way back I thought of grouping notes by project, but I haven't decided whether tags alone are enough.",
+      "language": "en",
+      "origin": "synthetic",
+      "scenario_group": "team",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "想到按项目组织笔记，但尚未确定仅靠标签是否足够。",
+        "category": "idea",
+        "tags": [
+          "模拟转写",
+          "笔记组织"
+        ]
+      }
+    },
+    {
+      "id": "syn-012",
+      "title": "OCR mock text",
+      "body": "Meeting memo: fix duplicate imports. Need owner + due date? handwriting unclear after this line.",
+      "language": "en",
+      "origin": "synthetic",
+      "scenario_group": "team",
+      "locator": "本项目 AI 辅助编写的模拟文本；不是真实用户输入、ASR 或 OCR 输出",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "会议备忘提到修复重复导入，并留下负责人和期限的疑问，之后文字不清。",
+        "category": "question",
+        "tags": [
+          "模拟OCR",
+          "重复导入"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "status": "ok",
+  "candidate_labels": true,
+  "human_verified": false,
+  "semantic_search": false,
+  "benchmark_sha256": "e8ace694d1106d52d5b0f2fe28400be4653952bfc67fc63e22d13bf758b6f6a8",
+  "dataset_sha256": "32facf0234d1cf059ea3e965b43c1697fcbb30098b0396576ac06c9200563f5d",
+  "overall": {
+    "queries": 16,
+    "positives": 12,
+    "negatives": 4,
+    "hit_at_5": 0.6666666666666666,
+    "mrr_at_5": 0.6666666666666666,
+    "negative_false_return_rate": 0.0
+  },
+  "by_track": {
+    "keyword": {
+      "queries": 8,
+      "positives": 8,
+      "negatives": 0,
+      "hit_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "negative_false_return_rate": null
+    },
+    "natural": {
+      "queries": 4,
+      "positives": 4,
+      "negatives": 0,
+      "hit_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "negative_false_return_rate": null
+    },
+    "negative": {
+      "queries": 4,
+      "positives": 0,
+      "negatives": 4,
+      "hit_at_5": null,
+      "mrr_at_5": null,
+      "negative_false_return_rate": 0.0
+    }
+  },
+  "by_split": {
+    "dev": {
+      "queries": 9,
+      "positives": 7,
+      "negatives": 2,
+      "hit_at_5": 0.7142857142857143,
+      "mrr_at_5": 0.7142857142857143,
+      "negative_false_return_rate": 0.0
+    },
+    "test": {
+      "queries": 7,
+      "positives": 5,
+      "negatives": 2,
+      "hit_at_5": 0.6,
+      "mrr_at_5": 0.6,
+      "negative_false_return_rate": 0.0
+    }
+  },
+  "details": [
+    {
+      "id": "kw-01",
+      "query": "列表末尾",
+      "expected_ids": [
+        "pub-001",
+        "pub-002"
+      ],
+      "split": "dev",
+      "track": "keyword",
+      "returned_ids": [
+        "pub-002",
+        "pub-001"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "kw-02",
+      "query": "localStorage",
+      "expected_ids": [
+        "pub-004",
+        "pub-005"
+      ],
+      "split": "dev",
+      "track": "keyword",
+      "returned_ids": [
+        "pub-005",
+        "pub-004"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "kw-03",
+      "query": "响应式依赖",
+      "expected_ids": [
+        "pub-006",
+        "pub-007"
+      ],
+      "split": "dev",
+      "track": "keyword",
+      "returned_ids": [
+        "pub-006",
+        "pub-007"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "kw-04",
+      "query": "substring",
+      "expected_ids": [
+        "pub-003"
+      ],
+      "split": "test",
+      "track": "keyword",
+      "returned_ids": [
+        "pub-003"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "kw-05",
+      "query": "all-or-nothing",
+      "expected_ids": [
+        "pub-011"
+      ],
+      "split": "test",
+      "track": "keyword",
+      "returned_ids": [
+        "pub-011"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "kw-06",
+      "query": "离线",
+      "expected_ids": [
+        "syn-001"
+      ],
+      "split": "dev",
+      "track": "keyword",
+      "returned_ids": [
+        "syn-001"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "method": "literal_short_query"
+    },
+    {
+      "id": "kw-07",
+      "query": "随机种子",
+      "expected_ids": [
+        "syn-008"
+      ],
+      "split": "test",
+      "track": "keyword",
+      "returned_ids": [
+        "syn-008"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "kw-08",
+      "query": "唯一",
+      "expected_ids": [
+        "pub-019"
+      ],
+      "split": "dev",
+      "track": "keyword",
+      "returned_ids": [
+        "pub-019"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "method": "literal_short_query"
+    },
+    {
+      "id": "nl-01",
+      "query": "没联网能不能先记下来",
+      "expected_ids": [
+        "syn-001"
+      ],
+      "split": "dev",
+      "track": "natural",
+      "returned_ids": [],
+      "hit": false,
+      "reciprocal_rank": 0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "nl-02",
+      "query": "我上次说的那个实验为什么不稳定",
+      "expected_ids": [
+        "syn-008"
+      ],
+      "split": "test",
+      "track": "natural",
+      "returned_ids": [],
+      "hit": false,
+      "reciprocal_rank": 0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "nl-03",
+      "query": "缓存依赖变动才重新算",
+      "expected_ids": [
+        "pub-006",
+        "pub-007"
+      ],
+      "split": "dev",
+      "track": "natural",
+      "returned_ids": [],
+      "hit": false,
+      "reciprocal_rank": 0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "nl-04",
+      "query": "把多个步骤一起成功或者一起失败",
+      "expected_ids": [
+        "pub-011"
+      ],
+      "split": "test",
+      "track": "natural",
+      "returned_ids": [],
+      "hit": false,
+      "reciprocal_rank": 0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "neg-01",
+      "query": "火星航班登机口",
+      "expected_ids": [],
+      "split": "dev",
+      "track": "negative",
+      "returned_ids": [],
+      "hit": false,
+      "reciprocal_rank": 0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "neg-02",
+      "query": "ZXQ_UNSEEN_999",
+      "expected_ids": [],
+      "split": "test",
+      "track": "negative",
+      "returned_ids": [],
+      "hit": false,
+      "reciprocal_rank": 0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "neg-03",
+      "query": "量子纠缠实验门票",
+      "expected_ids": [],
+      "split": "dev",
+      "track": "negative",
+      "returned_ids": [],
+      "hit": false,
+      "reciprocal_rank": 0,
+      "method": "fts5_trigram_bm25"
+    },
+    {
+      "id": "neg-04",
+      "query": "医疗发票号码",
+      "expected_ids": [],
+      "split": "test",
+      "track": "negative",
+      "returned_ids": [],
+      "hit": false,
+      "reciprocal_rank": 0,
+      "method": "fts5_trigram_bm25"
+    }
+  ]
+}

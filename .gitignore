@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+runtime/
+test-tmp/
+*.db-wal
+*.db-shm
+.coverage
+.pytest_cache/

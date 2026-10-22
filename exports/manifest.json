@@ -1,0 +1,23 @@
+{
+  "contract_version": 1,
+  "dataset_sha256": "32facf0234d1cf059ea3e965b43c1697fcbb30098b0396576ac06c9200563f5d",
+  "records": 32,
+  "table_counts": {
+    "sources": 20,
+    "samples": 32,
+    "annotation_revisions": 32,
+    "tags": 39,
+    "annotation_tags": 64,
+    "source_checks": 20,
+    "import_runs": 2,
+    "audit_events": 32
+  },
+  "files": {
+    "loom.db": "5f1279c34f8753e75dc1a25db0e30207661a7f60f49df5b2a36f3e17cc6eede8",
+    "mysql_seed.sql": "4f4332b33a12d0a45dd6c770373e7ca9178f0a07bb3f7f76dfc73441077aa3b1",
+    "notes.csv": "95a13dba04f4003a3070ff4f98d4a17e63fd5e8487c4ccdd93033fa349758d81",
+    "notes.json": "2f68932035382a071060b5c3a43001ed014ee7a2f41d8298767b41ef90f286ae",
+    "quality.json": "97467a31bf9b43d30aa4d0e2d886d517055d3af469cb0fe8331e777a0fb5107a",
+    "viewer.html": "29f3571c749abd668012a67be313b3c3fcaf43222c0a162f0a909a9c29028978"
+  }
+}

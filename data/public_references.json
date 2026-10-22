@@ -1,0 +1,545 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "pub-001",
+      "title": "Python 列表追加",
+      "language": "en",
+      "body": "Add an item to the end of the list.",
+      "origin": "public_excerpt",
+      "locator": "5.1 list.append",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/datastructures.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "list.append 会在列表末尾追加一个元素。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "列表"
+        ]
+      }
+    },
+    {
+      "id": "pub-002",
+      "title": "Python 列表追加（中文）",
+      "language": "zh",
+      "body": "在列表末尾添加一项。",
+      "origin": "public_excerpt",
+      "locator": "5.1 list.append",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/zh-cn/3/tutorial/datastructures.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "在列表末尾添加一项。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "列表"
+        ]
+      }
+    },
+    {
+      "id": "pub-003",
+      "title": "SQLite 子串索引",
+      "language": "en",
+      "body": "The trigram tokenizer extends FTS5 to support substring matching in general, instead of the usual token matching.",
+      "origin": "public_excerpt",
+      "locator": "4.3.4 The Trigram Tokenizer",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://www.sqlite.org/fts5.html",
+        "author": "SQLite documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "trigram 分词器使 FTS5 支持子串匹配。",
+        "category": "knowledge",
+        "tags": [
+          "SQLite",
+          "全文检索"
+        ]
+      }
+    },
+    {
+      "id": "pub-004",
+      "title": "浏览器持久存储",
+      "language": "en",
+      "body": "the stored data is saved across browser sessions.",
+      "origin": "public_excerpt",
+      "locator": "Description, first paragraph",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "这些存储数据可跨浏览器会话保存。",
+        "category": "knowledge",
+        "tags": [
+          "浏览器",
+          "localStorage"
+        ]
+      }
+    },
+    {
+      "id": "pub-005",
+      "title": "本地存储的字符串",
+      "language": "zh",
+      "body": "localStorage 中的键值对总是以字符串的形式存储。",
+      "origin": "public_excerpt",
+      "locator": "开头说明，键值对类型",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/zh-CN/docs/Web/API/Window/localStorage",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "localStorage 以字符串保存键值对。",
+        "category": "knowledge",
+        "tags": [
+          "浏览器",
+          "localStorage"
+        ]
+      }
+    },
+    {
+      "id": "pub-006",
+      "title": "响应式依赖缓存",
+      "language": "en",
+      "body": "computed properties are cached based on their reactive dependencies.",
+      "origin": "public_excerpt",
+      "locator": "Computed Caching vs. Methods",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://vuejs.org/guide/essentials/computed.html",
+        "author": "Vue documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "计算属性基于响应式依赖缓存结果。",
+        "category": "knowledge",
+        "tags": [
+          "Vue",
+          "计算属性"
+        ]
+      }
+    },
+    {
+      "id": "pub-007",
+      "title": "计算属性缓存（中文）",
+      "language": "zh",
+      "body": "计算属性值会基于其响应式依赖被缓存。",
+      "origin": "public_excerpt",
+      "locator": "计算属性缓存 vs 方法",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://cn.vuejs.org/guide/essentials/computed",
+        "author": "Vue documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "计算属性依据响应式依赖缓存。",
+        "category": "knowledge",
+        "tags": [
+          "Vue",
+          "计算属性"
+        ]
+      }
+    },
+    {
+      "id": "pub-008",
+      "title": "Git 跟踪文件",
+      "language": "en",
+      "body": "Tracked files are files that were in the last snapshot, as well as any newly staged files;",
+      "origin": "public_excerpt",
+      "locator": "Recording Changes, tracked files",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository",
+        "author": "Pro Git authors and translators",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "已跟踪文件包含上次快照中的文件和新暂存的文件。",
+        "category": "knowledge",
+        "tags": [
+          "Git",
+          "版本管理"
+        ]
+      }
+    },
+    {
+      "id": "pub-009",
+      "title": "Git 已跟踪文件（中文）",
+      "language": "zh",
+      "body": "已跟踪的文件就是 Git 已经知道的文件。",
+      "origin": "public_excerpt",
+      "locator": "记录每次更新到仓库，已跟踪说明",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://git-scm.com/book/zh/v2/Git-基础-记录每次更新到仓库",
+        "author": "Pro Git authors and translators",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "已跟踪文件是 Git 已知的文件。",
+        "category": "knowledge",
+        "tags": [
+          "Git",
+          "版本管理"
+        ]
+      }
+    },
+    {
+      "id": "pub-010",
+      "title": "Rust 所有权",
+      "language": "en",
+      "body": "Ownership is a set of rules that govern how a Rust program manages memory.",
+      "origin": "public_excerpt",
+      "locator": "What Is Ownership, opening paragraph",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html",
+        "author": "The Rust Programming Language authors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "所有权是一组管理 Rust 程序内存的规则。",
+        "category": "knowledge",
+        "tags": [
+          "Rust",
+          "所有权"
+        ]
+      }
+    },
+    {
+      "id": "pub-011",
+      "title": "事务整体性",
+      "language": "en",
+      "body": "The essential point of a transaction is that it bundles multiple steps into a single, all-or-nothing operation.",
+      "origin": "public_excerpt",
+      "locator": "3.4 Transactions, first paragraph",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+        "author": "PostgreSQL documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "事务将多个步骤组合为全有或全无的操作。",
+        "category": "knowledge",
+        "tags": [
+          "数据库",
+          "事务"
+        ]
+      }
+    },
+    {
+      "id": "pub-012",
+      "title": "语法错误与异常",
+      "language": "en",
+      "body": "There are (at least) two distinguishable kinds of errors: syntax errors and exceptions.",
+      "origin": "public_excerpt",
+      "locator": "8 Errors and Exceptions, introduction",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/errors.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "错误至少可区分为语法错误和异常。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "异常"
+        ]
+      }
+    },
+    {
+      "id": "pub-013",
+      "title": "错误的分类（中文）",
+      "language": "zh",
+      "body": "语法错误 和 异常。",
+      "origin": "public_excerpt",
+      "locator": "8 错误和异常，开头分类",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/zh-cn/3/tutorial/errors.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "摘录列出语法错误和异常两类错误。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "异常"
+        ]
+      }
+    },
+    {
+      "id": "pub-014",
+      "title": "IndexedDB 结构化存储",
+      "language": "en",
+      "body": "IndexedDB is a low-level API for client-side storage of significant amounts of structured data, including files/blobs.",
+      "origin": "public_excerpt",
+      "locator": "Opening definition",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "IndexedDB 是客户端存储大量结构化数据的底层 API，也涵盖文件与 blob。",
+        "category": "knowledge",
+        "tags": [
+          "浏览器",
+          "IndexedDB"
+        ]
+      }
+    },
+    {
+      "id": "pub-015",
+      "title": "IndexedDB 底层接口",
+      "language": "zh",
+      "body": "IndexedDB 是一种底层 API",
+      "origin": "public_excerpt",
+      "locator": "开头定义",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "IndexedDB 是一种底层 API。",
+        "category": "knowledge",
+        "tags": [
+          "浏览器",
+          "IndexedDB"
+        ]
+      }
+    },
+    {
+      "id": "pub-016",
+      "title": "Vue 状态变化的副作用",
+      "language": "zh",
+      "body": "我们需要在状态变化时执行一些“副作用”",
+      "origin": "public_excerpt",
+      "locator": "基本示例，开头",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://cn.vuejs.org/guide/essentials/watchers",
+        "author": "Vue documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "状态变化时可能需要执行副作用。",
+        "category": "knowledge",
+        "tags": [
+          "Vue",
+          "侦听器"
+        ]
+      }
+    },
+    {
+      "id": "pub-017",
+      "title": "函数定义关键字",
+      "language": "en",
+      "body": "The keyword def introduces a function definition.",
+      "origin": "public_excerpt",
+      "locator": "4.8 Defining Functions",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/controlflow.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "def 关键字用于引入函数定义。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "函数"
+        ]
+      }
+    },
+    {
+      "id": "pub-018",
+      "title": "函数体的缩进",
+      "language": "zh",
+      "body": "函数语句从下一行开始，并且必须缩进。",
+      "origin": "public_excerpt",
+      "locator": "4.8 定义函数",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/zh-cn/3/tutorial/controlflow.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "函数体从下一行开始，需要缩进。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "函数"
+        ]
+      }
+    },
+    {
+      "id": "pub-019",
+      "title": "Vue 列表的唯一键",
+      "language": "en",
+      "body": "you need to provide a unique key attribute for each item:",
+      "origin": "public_excerpt",
+      "locator": "Maintaining State with key",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://vuejs.org/guide/essentials/list.html",
+        "author": "Vue documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "每个列表项需要唯一的 key 属性。",
+        "category": "knowledge",
+        "tags": [
+          "Vue",
+          "列表渲染"
+        ]
+      }
+    },
+    {
+      "id": "pub-020",
+      "title": "Vue key 的值类型",
+      "language": "zh",
+      "body": "不要用对象作为 v-for 的 key。",
+      "origin": "public_excerpt",
+      "locator": "通过 key 管理状态",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://cn.vuejs.org/guide/essentials/list",
+        "author": "Vue documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 通过网页读取工具读取上述页面；短摘录按渲染后的纯文本选取，代码标记不计入正文。AI 辅助核对，未作人工复核或许可认定。"
+      },
+      "annotation": {
+        "summary_zh": "v-for 的 key 不应使用对象。",
+        "category": "knowledge",
+        "tags": [
+          "Vue",
+          "列表渲染"
+        ]
+      }
+    }
+  ]
+}

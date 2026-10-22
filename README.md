@@ -2,7 +2,7 @@
 
 为 LOOM「想法收件箱 + AI 加工」准备的独立数据库交付：**可追溯样本、保留历史的标注、全文子串检索、MySQL 对接资料**。
 
-首版日期：2026-10-22。仓库：[Yeggy496/LOOM--Database](https://github.com/Yeggy496/LOOM--Database)。
+首版日期：2026-10-22；当前为同日的 **100 条扩充版**。仓库：[Yeggy496/LOOM--Database](https://github.com/Yeggy496/LOOM--Database)。
 
 ## 先打开什么
 
@@ -22,7 +22,7 @@ GitHub 文件预览不会执行 HTML；先下载文件或整个仓库，再在�
 
 ## 这一版有什么
 
-- **32 条独立整理样本**：20 条技术文档短摘录 + 12 条模拟速记；中文 19 条、英文 13 条。公开来源与模拟文本在库中强制区分。
+- **100 条独立整理样本**：50 条技术文档短摘录 + 50 条模拟速记；中文 60 条、英文 40 条。原有 32 条保持不变，新增 68 条采用独立批次。公开来源与模拟文本在库中强制区分。
 - **9 张普通表**（含 SQLite 迁移记录），外加派生全文索引；原文、来源、标注版本和核查证据各自保存。
 - **增量迁移**：SQLite 迁移编号和 SHA-256 校验，拒绝偷偷修改已应用的历史脚本。
 - **标注版本**：修改会追加修订，保留旧摘要、类别和标签；通过 `expected_revision` 防止两位成员互相覆盖。
@@ -40,6 +40,8 @@ GitHub 文件预览不会执行 HTML；先下载文件或整个仓库，再在�
 python -m loomdb migrate
 python -m loomdb import data/public_references.json
 python -m loomdb import data/synthetic_inbox.json
+python -m loomdb import data/public_references_2026-10-22_expansion.json
+python -m loomdb import data/synthetic_inbox_2026-10-22_expansion.json
 python -m loomdb check
 python -m loomdb search "离线"
 python -m loomdb search "substring" --split test
@@ -72,7 +74,7 @@ python -m loomdb export
 
 ## 与队友仓库的关系
 
-参考了 [skh020309-maker/loom-database](https://github.com/skh020309-maker/loom-database) 的“公开样本 + SQLite/MySQL + 数据检查”交付范围。本仓库的代码、32 条数据和浏览界面独立编写，没有复制其源码或笔记样本；也不把它的已有结果记成本仓库成果。
+参考了 [skh020309-maker/loom-database](https://github.com/skh020309-maker/loom-database) 的“公开样本 + SQLite/MySQL + 数据检查”交付范围。本仓库的代码、100 条数据和浏览界面独立编写，没有复制其源码或笔记样本；也不把它的已有结果记成本仓库成果。
 
 可以按分工合并成果：队友继续公开个人笔记的采集和来源核查；本仓库侧重版本化标注、检索索引、模拟场景及可重复交付。需要交换数据时先做字段映射和来源核查，不直接把两套表拼接。详见[协作与对接](docs/后端对接.md)。
 

@@ -28,7 +28,8 @@ def main():
     with tempfile.TemporaryDirectory() as folder:
         rebuilt=Path(folder)/'rebuilt.db'
         migrate(rebuilt)
-        for name in ('public_references.json','synthetic_inbox.json'):
+        for name in ('public_references.json','synthetic_inbox.json',
+                     'public_references_2026-10-22_expansion.json','synthetic_inbox_2026-10-22_expansion.json'):
             import_file(rebuilt,ROOT/'data'/name)
         for revision in sorted((ROOT/'data/reviews').glob('*.json')):
             apply_reviews(rebuilt,revision)

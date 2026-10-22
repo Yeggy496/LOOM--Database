@@ -1,0 +1,727 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "syn-013",
+      "title": "原话提醒",
+      "body": "想法里写了“也许周四能完成”，做成待办时别自动改成周四必须交付。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "product",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "希望转换待办时保留“也许”的不确定语气，不自动生成硬期限。",
+        "category": "idea",
+        "tags": [
+          "任务提取",
+          "不确定性"
+        ]
+      }
+    },
+    {
+      "id": "syn-014",
+      "title": "搜索结果解释",
+      "body": "搜索出来一条旧笔记时，能不能告诉我命中了原文还是标签？不然我不知道为什么找到它。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "product",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "希望知道检索结果命中的是原文还是标签。",
+        "category": "question",
+        "tags": [
+          "检索解释",
+          "标签"
+        ]
+      }
+    },
+    {
+      "id": "syn-015",
+      "title": "撤回加工结果",
+      "body": "自动摘要写偏了，希望可以撤回这次加工，原文和上一次确认的摘要都还在。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "product",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "希望撤回不准确的加工结果，同时保留原文和此前确认的摘要。",
+        "category": "idea",
+        "tags": [
+          "摘要版本",
+          "撤回"
+        ]
+      }
+    },
+    {
+      "id": "syn-016",
+      "title": "录音转写占位",
+      "body": "模拟转写：嗯，我想做一个每周回顾，但是不一定每周日，可能等有空了再看。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "product",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "模拟文本提出每周回顾想法，具体时间尚未确定。",
+        "category": "idea",
+        "tags": [
+          "模拟转写",
+          "每周回顾"
+        ]
+      }
+    },
+    {
+      "id": "syn-017",
+      "title": "附件失败处理",
+      "body": "图片上传到一半断了，正文已经存好。下次打开时应该只重传图片，别再建一条正文。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "product",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "希望图片上传失败后只重传附件，避免重复创建已保存正文。",
+        "category": "idea",
+        "tags": [
+          "附件上传",
+          "重复提交"
+        ]
+      }
+    },
+    {
+      "id": "syn-018",
+      "title": "删除后的搜索",
+      "body": "我把一条笔记放进回收站以后，普通搜索还应不应该搜到它？回收站内倒是可以单独搜。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "product",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "询问回收站笔记是否应出现在普通搜索中，并提出独立检索回收站的想法。",
+        "category": "question",
+        "tags": [
+          "删除恢复",
+          "搜索范围"
+        ]
+      }
+    },
+    {
+      "id": "syn-019",
+      "title": "课程疑问清单",
+      "body": "今天记下三个没想通的点：索引什么时候失效，连接顺序怎么选，慢查询要先看什么。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "study",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "记录关于索引失效、连接顺序和慢查询排查的三个问题。",
+        "category": "question",
+        "tags": [
+          "学习",
+          "查询优化"
+        ]
+      }
+    },
+    {
+      "id": "syn-020",
+      "title": "复习任务拆分",
+      "body": "明晚把操作系统第三章分成进程、线程、调度三张卡片，每张先写我自己的解释。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "study",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "计划明晚按进程、线程和调度制作三张解释卡片。",
+        "category": "task",
+        "tags": [
+          "学习",
+          "知识卡片"
+        ]
+      }
+    },
+    {
+      "id": "syn-021",
+      "title": "实验日志模板",
+      "body": "以后做实验先写假设，再写参数和观察到的现象。最后一栏留给失败原因，想不出来就空着。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "study",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "提出按假设、参数、现象和失败原因组织实验日志，未知原因保持空白。",
+        "category": "idea",
+        "tags": [
+          "实验记录",
+          "日志模板"
+        ]
+      }
+    },
+    {
+      "id": "syn-022",
+      "title": "概念区分速记",
+      "body": "课堂上听到：备份是保留副本，版本历史是保留变化。我的理解还不一定准确，找例子确认。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "study",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "记录对备份和版本历史的初步区分，并计划用例子确认。",
+        "category": "knowledge",
+        "tags": [
+          "学习",
+          "版本历史"
+        ]
+      }
+    },
+    {
+      "id": "syn-023",
+      "title": "作业提交检查",
+      "body": "周末交作业前检查文件名、参考来源和运行说明，先把说明文档里的空白补齐。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "study",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "计划在周末提交作业前补全说明并检查文件名及参考来源。",
+        "category": "task",
+        "tags": [
+          "学习",
+          "作业检查"
+        ]
+      }
+    },
+    {
+      "id": "syn-024",
+      "title": "Learning-log mock note",
+      "body": "I solved the example after seeing a hint. I should try a fresh problem tomorrow before claiming I understand it.",
+      "language": "en",
+      "origin": "synthetic",
+      "scenario_group": "study",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "模拟学习记录认为解题使用了提示，计划明天用新题检验理解。",
+        "category": "task",
+        "tags": [
+          "学习",
+          "自我检验"
+        ]
+      }
+    },
+    {
+      "id": "syn-025",
+      "title": "会议纪要格式",
+      "body": "组会纪要可以只记决定、待确认事项和下一步负责人，闲聊内容先不整理进去。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "team",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "提出按决定、待确认事项和下一步负责人整理组会纪要。",
+        "category": "idea",
+        "tags": [
+          "项目协作",
+          "会议纪要"
+        ]
+      }
+    },
+    {
+      "id": "syn-026",
+      "title": "接口样例核对",
+      "body": "明天联调前准备一条只有文字的样本和一条带附件的样本，检查字段为空时页面怎么显示。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "team",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "计划在明天联调前准备纯文字和带附件样本，并检查空字段展示。",
+        "category": "task",
+        "tags": [
+          "项目协作",
+          "联调"
+        ]
+      }
+    },
+    {
+      "id": "syn-027",
+      "title": "演示彩排安排",
+      "body": "周三下课后做一次十分钟彩排，先演示保存，再演示检索；教室还要问一下。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "team",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "安排周三下课后进行十分钟彩排，展示保存和检索，地点待确认。",
+        "category": "event",
+        "tags": [
+          "项目协作",
+          "彩排"
+        ]
+      }
+    },
+    {
+      "id": "syn-028",
+      "title": "评审分歧",
+      "body": "同一条内容，我觉得是问题，组员觉得是想法。要不要先写分类边界，再各自标十条比较？",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "team",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "针对分类分歧，提出先定义边界再独立标注比较。",
+        "category": "question",
+        "tags": [
+          "项目协作",
+          "分类边界"
+        ]
+      }
+    },
+    {
+      "id": "syn-029",
+      "title": "Team-handoff mock note",
+      "body": "Before the demo, agree on one database snapshot. I can export it, but someone else needs to check the import.",
+      "language": "en",
+      "origin": "synthetic",
+      "scenario_group": "team",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "模拟交接记录要求演示前统一数据库快照，并由另一人检查导入。",
+        "category": "task",
+        "tags": [
+          "项目协作",
+          "数据交接"
+        ]
+      }
+    },
+    {
+      "id": "syn-030",
+      "title": "家务备忘",
+      "body": "周末洗床单、清理桌面。清理时把还能用的纸单独留起来，别全部丢掉。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "daily_life",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "计划周末洗床单和整理桌面，并保留仍可使用的纸。",
+        "category": "task",
+        "tags": [
+          "生活记录",
+          "整理"
+        ]
+      }
+    },
+    {
+      "id": "syn-031",
+      "title": "采购清单合并",
+      "body": "购物清单里重复写了两次牛奶，不知道是忘了自己记过，还是想买两盒，先别自动合并数量。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "daily_life",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "重复记录牛奶的意图不明确，暂不自动合并购买数量。",
+        "category": "question",
+        "tags": [
+          "生活记录",
+          "重复记录"
+        ]
+      }
+    },
+    {
+      "id": "syn-032",
+      "title": "零散支出记录",
+      "body": "这周几次小额支出都忘了写，想试试付款后只记金额和用途，月底再分类。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "daily_life",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "想尝试付款后记录金额和用途，到月底再分类。",
+        "category": "idea",
+        "tags": [
+          "生活记录",
+          "支出记录"
+        ]
+      }
+    },
+    {
+      "id": "syn-033",
+      "title": "收纳观察",
+      "body": "钥匙常被放在不同的位置。也许门口放一个小托盘会方便些，先试几天看看。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "daily_life",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "观察到钥匙位置不固定，计划尝试在门口放托盘。",
+        "category": "idea",
+        "tags": [
+          "生活记录",
+          "收纳"
+        ]
+      }
+    },
+    {
+      "id": "syn-034",
+      "title": "朋友聚会占位",
+      "body": "周六下午和朋友见面，可能去公园也可能找室内地方，等天气和大家意见再定。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "daily_life",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "计划周六下午与朋友见面，地点待天气和共同意见确定。",
+        "category": "event",
+        "tags": [
+          "生活记录",
+          "聚会"
+        ]
+      }
+    },
+    {
+      "id": "syn-035",
+      "title": "阅读后的疑问",
+      "body": "这篇文章一直说“效率更高”，但没有告诉我和什么比较。下次读类似结论先找比较对象。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "reading",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "质疑文章效率结论缺少比较对象，计划阅读时关注比较基准。",
+        "category": "question",
+        "tags": [
+          "阅读记录",
+          "比较基准"
+        ]
+      }
+    },
+    {
+      "id": "syn-036",
+      "title": "摘录与我的想法",
+      "body": "读书时把作者原句放左边，我自己的联想放右边，避免以后回看时混在一起。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "reading",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "希望分开记录作者原句和个人联想。",
+        "category": "idea",
+        "tags": [
+          "阅读记录",
+          "来源区分"
+        ]
+      }
+    },
+    {
+      "id": "syn-037",
+      "title": "读书会安排",
+      "body": "下周读书会先讨论每人最不认同的一段，再讨论能应用到项目中的部分，书目还未统一。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "reading",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "计划下周读书会讨论分歧及项目应用，书目尚未确定。",
+        "category": "event",
+        "tags": [
+          "阅读记录",
+          "读书会"
+        ]
+      }
+    },
+    {
+      "id": "syn-038",
+      "title": "Reading-question mock note",
+      "body": "The author gives one example, but does it still work for a larger group? Keep this as a question, not a conclusion.",
+      "language": "en",
+      "origin": "synthetic",
+      "scenario_group": "reading",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "模拟阅读问题询问单个例子是否适用于更大群体，要求保留疑问。",
+        "category": "question",
+        "tags": [
+          "阅读记录",
+          "适用范围"
+        ]
+      }
+    },
+    {
+      "id": "syn-039",
+      "title": "海报配色灵感",
+      "body": "做一个像旧笔记本一样的海报：米白底、深绿字，橙色只标出重点。先画一张看看会不会太暗。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "creative",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "提出米白、深绿和少量橙色的海报配色，并计划试画检查效果。",
+        "category": "idea",
+        "tags": [
+          "创意记录",
+          "视觉设计"
+        ]
+      }
+    },
+    {
+      "id": "syn-040",
+      "title": "故事开头草稿",
+      "body": "故事从一个人发现自己写过却不记得的便签开始。便签内容先不要揭晓，留到第二场。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "creative",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "构思以被遗忘的便签开启故事，并延后揭示内容。",
+        "category": "idea",
+        "tags": [
+          "创意记录",
+          "故事草稿"
+        ]
+      }
+    },
+    {
+      "id": "syn-041",
+      "title": "创作回顾时间",
+      "body": "周日晚上留二十分钟看本周草图，挑一张继续画，其他先归档，不急着删。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "creative",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "安排周日晚上回顾草图，选择一张继续并归档其余作品。",
+        "category": "event",
+        "tags": [
+          "创意记录",
+          "草图回顾"
+        ]
+      }
+    },
+    {
+      "id": "syn-042",
+      "title": "Design-question mock note",
+      "body": "Would a quiet animation help people notice that a note was saved, or would it distract them? Compare both versions later.",
+      "language": "en",
+      "origin": "synthetic",
+      "scenario_group": "creative",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "模拟设计问题比较保存动画的提示作用与干扰风险，计划之后对比两版。",
+        "category": "question",
+        "tags": [
+          "创意记录",
+          "交互反馈"
+        ]
+      }
+    },
+    {
+      "id": "syn-043",
+      "title": "出门前备忘",
+      "body": "明早去图书馆前带充电器、水杯和借书卡，先确认借书卡是不是还放在旧包里。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "travel",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "计划明早出门前准备物品并确认借书卡位置。",
+        "category": "task",
+        "tags": [
+          "出行记录",
+          "出门准备"
+        ]
+      }
+    },
+    {
+      "id": "syn-044",
+      "title": "步行路线记录",
+      "body": "今天走河边那条路很安静，但晚上灯不多。下次白天再走一次，看看是不是值得绕远。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "travel",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "记录河边路线安静但夜间照明较少，计划白天再次体验。",
+        "category": "knowledge",
+        "tags": [
+          "出行记录",
+          "路线观察"
+        ]
+      }
+    },
+    {
+      "id": "syn-045",
+      "title": "展览时间待确认",
+      "body": "想下个月去看展，先收藏页面，具体哪天有空还不知道，别现在就加成固定日程。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "travel",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "有下个月看展的意向，日期尚未确定，暂不设固定日程。",
+        "category": "event",
+        "tags": [
+          "出行记录",
+          "时间待定"
+        ]
+      }
+    },
+    {
+      "id": "syn-046",
+      "title": "旅途想法收集",
+      "body": "在车上想到的内容先只记一句话，等到地方再补背景，别要求当场填完整表单。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "travel",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "annotation": {
+        "summary_zh": "希望旅途中先快速记一句想法，到达后再补充背景。",
+        "category": "idea",
+        "tags": [
+          "出行记录",
+          "快速记录"
+        ]
+      }
+    },
+    {
+      "id": "syn-047",
+      "title": "一周回顾疑问",
+      "body": "这周很多任务只写了“继续做”，回看时完全不知道进展到哪一步。以后要不要加一句下一步动作？",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "reflection",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "发现任务记录缺少进度信息，询问是否应补充下一步动作。",
+        "category": "question",
+        "tags": [
+          "个人回顾",
+          "下一步"
+        ]
+      }
+    },
+    {
+      "id": "syn-048",
+      "title": "回顾时间块",
+      "body": "月底找半小时回看本月的未分类笔记，决定保留、补充背景还是移到归档。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "reflection",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "安排月底用半小时整理未分类笔记。",
+        "category": "event",
+        "tags": [
+          "个人回顾",
+          "归档"
+        ]
+      }
+    },
+    {
+      "id": "syn-049",
+      "title": "完成感记录",
+      "body": "今天真正推进的是把一个模糊问题写清楚，并没有写很多代码。这个也应该记成进展。",
+      "language": "zh",
+      "origin": "synthetic",
+      "scenario_group": "reflection",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "把澄清模糊问题视为今天的进展，而不只按代码量记录。",
+        "category": "knowledge",
+        "tags": [
+          "个人回顾",
+          "进展记录"
+        ]
+      }
+    },
+    {
+      "id": "syn-050",
+      "title": "Reflection mock note",
+      "body": "I postponed this task twice because the next step was unclear. Write the smallest concrete action before scheduling it again.",
+      "language": "en",
+      "origin": "synthetic",
+      "scenario_group": "reflection",
+      "locator": "100 条扩充批次：本项目 AI 辅助编写的模拟速记；非真实用户笔记、录音转写或手写识别结果",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "annotation": {
+        "summary_zh": "模拟回顾认为任务因下一步不清楚被推迟，提出先写最小具体动作再安排。",
+        "category": "task",
+        "tags": [
+          "个人回顾",
+          "任务拆分"
+        ]
+      }
+    }
+  ]
+}

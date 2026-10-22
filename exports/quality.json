@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "errors": [],
-  "records": 32,
-  "public_excerpt": 20,
-  "synthetic": 12,
+  "records": 100,
+  "public_excerpt": 50,
+  "synthetic": 50,
   "human_verified": 0,
   "training_allowed": false,
   "scope": "离线结构检查；不代替人工语义复核或网页重新访问"

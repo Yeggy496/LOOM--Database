@@ -1,0 +1,815 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "pub-021",
+      "origin": "public_excerpt",
+      "title": "Python 模块文件",
+      "language": "en",
+      "body": "A module is a file containing Python definitions and statements.",
+      "locator": "6 Modules, module definition",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/modules.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "模块文件包含 Python 定义和语句。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "模块"
+        ]
+      }
+    },
+    {
+      "id": "pub-022",
+      "origin": "public_excerpt",
+      "title": "模块的定义（中文）",
+      "language": "zh",
+      "body": "模块是包含 Python 定义和语句的文件。",
+      "locator": "6 模块，开头定义",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/zh-cn/3/tutorial/modules.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "模块是保存 Python 定义和语句的文件。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "模块"
+        ]
+      }
+    },
+    {
+      "id": "pub-023",
+      "origin": "public_excerpt",
+      "title": "供人阅读的字符串",
+      "language": "en",
+      "body": "The str() function is meant to return representations of values which are fairly human-readable,",
+      "locator": "7.1 Fancier output formatting, str/repr comparison",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/inputoutput.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "str() 用于生成适合人阅读的值表示。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "字符串"
+        ]
+      }
+    },
+    {
+      "id": "pub-024",
+      "origin": "public_excerpt",
+      "title": "字符串表示（中文）",
+      "language": "zh",
+      "body": "str() 函数返回供人阅读的值",
+      "locator": "7.1 str 与 repr 比较",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/zh-cn/3/tutorial/inputoutput.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "str() 返回供人阅读的值表示。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "字符串"
+        ]
+      }
+    },
+    {
+      "id": "pub-025",
+      "origin": "public_excerpt",
+      "title": "类封装数据与功能",
+      "language": "en",
+      "body": "Classes provide a means of bundling data and functionality together.",
+      "locator": "9 Classes, introduction",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/classes.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "类提供将数据与功能组合在一起的方法。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "类"
+        ]
+      }
+    },
+    {
+      "id": "pub-026",
+      "origin": "public_excerpt",
+      "title": "类的作用（中文）",
+      "language": "zh",
+      "body": "类提供了把数据和功能绑定在一起的方法。",
+      "locator": "9 类，开头说明",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://docs.python.org/zh-cn/3/tutorial/classes.html",
+        "author": "Python documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "类将数据和功能绑定在一起。",
+        "category": "knowledge",
+        "tags": [
+          "Python",
+          "类"
+        ]
+      }
+    },
+    {
+      "id": "pub-027",
+      "origin": "public_excerpt",
+      "title": "Service Worker 代理",
+      "language": "en",
+      "body": "Service workers essentially act as proxy servers that sit between web applications, the browser, and the network (when available).",
+      "locator": "Opening definition",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Service Worker 在 Web 应用、浏览器和可用网络之间起代理作用。",
+        "category": "knowledge",
+        "tags": [
+          "浏览器",
+          "Service Worker"
+        ]
+      }
+    },
+    {
+      "id": "pub-028",
+      "origin": "public_excerpt",
+      "title": "Fetch 获取资源",
+      "language": "en",
+      "body": "The Fetch API provides an interface for fetching resources (including across the network).",
+      "locator": "Opening definition",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Fetch API 提供获取资源的接口，也可跨网络获取。",
+        "category": "knowledge",
+        "tags": [
+          "浏览器",
+          "Fetch"
+        ]
+      }
+    },
+    {
+      "id": "pub-029",
+      "origin": "public_excerpt",
+      "title": "Fetch 接口（中文）",
+      "language": "zh",
+      "body": "Fetch API 提供了一个用于获取资源（包括跨网络通信）的接口。",
+      "locator": "开头定义",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Fetch API 提供获取资源的接口，包含跨网络通信。",
+        "category": "knowledge",
+        "tags": [
+          "浏览器",
+          "Fetch"
+        ]
+      }
+    },
+    {
+      "id": "pub-030",
+      "origin": "public_excerpt",
+      "title": "Promise 的完成与失败",
+      "language": "en",
+      "body": "The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+      "locator": "Opening definition",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Promise 表示异步操作最终的完成或失败及其结果值。",
+        "category": "knowledge",
+        "tags": [
+          "JavaScript",
+          "Promise"
+        ]
+      }
+    },
+    {
+      "id": "pub-031",
+      "origin": "public_excerpt",
+      "title": "Promise 结果（中文）",
+      "language": "zh",
+      "body": "Promise 对象表示异步操作最终的完成（或失败）以及其结果值。",
+      "locator": "开头定义",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Promise 表示异步操作最终的完成或失败及其结果值。",
+        "category": "knowledge",
+        "tags": [
+          "JavaScript",
+          "Promise"
+        ]
+      }
+    },
+    {
+      "id": "pub-032",
+      "origin": "public_excerpt",
+      "title": "取消网络请求",
+      "language": "en",
+      "body": "The AbortController interface represents a controller object that allows you to abort one or more Web requests as and when desired.",
+      "locator": "Opening definition",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "AbortController 控制器对象可以中止一个或多个 Web 请求。",
+        "category": "knowledge",
+        "tags": [
+          "浏览器",
+          "AbortController"
+        ]
+      }
+    },
+    {
+      "id": "pub-033",
+      "origin": "public_excerpt",
+      "title": "结构化深复制",
+      "language": "en",
+      "body": "The structuredClone() method of the Window interface creates a deep clone of a value using the structured clone algorithm.",
+      "locator": "Opening definition",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/structuredClone",
+        "author": "MDN contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Window 的 structuredClone() 使用结构化克隆算法深复制值。",
+        "category": "knowledge",
+        "tags": [
+          "JavaScript",
+          "深复制"
+        ]
+      }
+    },
+    {
+      "id": "pub-034",
+      "origin": "public_excerpt",
+      "title": "侦听响应式属性",
+      "language": "en",
+      "body": "With the Options API, we can use the watch option to trigger a function whenever a reactive property changes:",
+      "locator": "Basic Example, Options API",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://vuejs.org/guide/essentials/watchers.html",
+        "author": "Vue documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "选项式 API 的 watch 选项可以在响应式属性变化时触发函数。",
+        "category": "knowledge",
+        "tags": [
+          "Vue",
+          "侦听器"
+        ]
+      }
+    },
+    {
+      "id": "pub-035",
+      "origin": "public_excerpt",
+      "title": "模板中的 ref 解包",
+      "language": "zh",
+      "body": "在模板中使用 ref 时，我们不需要附加 .value。",
+      "locator": "声明响应式状态，模板中的 ref",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://cn.vuejs.org/guide/essentials/reactivity-fundamentals",
+        "author": "Vue documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "模板中使用 ref 时通常不必附加 .value。",
+        "category": "knowledge",
+        "tags": [
+          "Vue",
+          "响应式"
+        ]
+      }
+    },
+    {
+      "id": "pub-036",
+      "origin": "public_excerpt",
+      "title": "表单绑定状态来源",
+      "language": "zh",
+      "body": "当前绑定的 JavaScript 状态视为数据的正确来源。",
+      "locator": "表单输入绑定，基本用法前的注意说明",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://cn.vuejs.org/guide/essentials/forms",
+        "author": "Vue documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "当前绑定的 JavaScript 状态被视为数据来源。",
+        "category": "knowledge",
+        "tags": [
+          "Vue",
+          "表单绑定"
+        ]
+      }
+    },
+    {
+      "id": "pub-037",
+      "origin": "public_excerpt",
+      "title": "DOM 事件监听",
+      "language": "en",
+      "body": "We can use the v-on directive, which we typically shorten to the @ symbol, to listen to DOM events",
+      "locator": "Listening to Events",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://vuejs.org/guide/essentials/event-handling.html",
+        "author": "Vue documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "可以用 v-on 或 @ 缩写监听 DOM 事件。",
+        "category": "knowledge",
+        "tags": [
+          "Vue",
+          "事件监听"
+        ]
+      }
+    },
+    {
+      "id": "pub-038",
+      "origin": "public_excerpt",
+      "title": "Props 值类型",
+      "language": "zh",
+      "body": "实际上任何类型的值都可以作为 props 的值被传递。",
+      "locator": "传递不同的值类型",
+      "collected_on": "2026-10-22",
+      "split": "dev",
+      "source": {
+        "url": "https://cn.vuejs.org/guide/components/props",
+        "author": "Vue documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "props 可以传递任意类型的值。",
+        "category": "knowledge",
+        "tags": [
+          "Vue",
+          "Props"
+        ]
+      }
+    },
+    {
+      "id": "pub-039",
+      "origin": "public_excerpt",
+      "title": "SQLite 原子提交",
+      "language": "en",
+      "body": "Atomic commit means that either all database changes within a single transaction occur or none of them occur.",
+      "locator": "1 Introduction, definition of atomic commit",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://www.sqlite.org/atomiccommit.html",
+        "author": "SQLite documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "原子提交使单个事务中的数据库更改全部发生或全部不发生。",
+        "category": "knowledge",
+        "tags": [
+          "SQLite",
+          "原子提交"
+        ]
+      }
+    },
+    {
+      "id": "pub-040",
+      "origin": "public_excerpt",
+      "title": "SQLite 外键开关",
+      "language": "en",
+      "body": "Foreign key constraints are disabled by default (for backwards compatibility)",
+      "locator": "2 Enabling Foreign Key Support",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://www.sqlite.org/foreignkeys.html",
+        "author": "SQLite documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "文中说明外键约束为向后兼容默认关闭。",
+        "category": "knowledge",
+        "tags": [
+          "SQLite",
+          "外键"
+        ]
+      }
+    },
+    {
+      "id": "pub-041",
+      "origin": "public_excerpt",
+      "title": "外键与匹配记录",
+      "language": "en",
+      "body": "make sure that no one can insert rows in the weather table that do not have a matching entry in the cities table.",
+      "locator": "3.3 Foreign Keys, weather/cities example",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://www.postgresql.org/docs/current/tutorial-fk.html",
+        "author": "PostgreSQL documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "示例希望 weather 表中的行在 cities 表中存在匹配项。",
+        "category": "knowledge",
+        "tags": [
+          "数据库",
+          "外键"
+        ]
+      }
+    },
+    {
+      "id": "pub-042",
+      "origin": "public_excerpt",
+      "title": "视图封装查询",
+      "language": "en",
+      "body": "Views can be used in almost any place a real table can be used.",
+      "locator": "3.2 Views, final paragraph",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://www.postgresql.org/docs/current/tutorial-views.html",
+        "author": "PostgreSQL documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "视图几乎可用于真实表可使用的任何位置。",
+        "category": "knowledge",
+        "tags": [
+          "数据库",
+          "视图"
+        ]
+      }
+    },
+    {
+      "id": "pub-043",
+      "origin": "public_excerpt",
+      "title": "Git 分支指针",
+      "language": "en",
+      "body": "A branch in Git is simply a lightweight movable pointer to one of these commits.",
+      "locator": "Branches in a Nutshell, branch definition",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell",
+        "author": "Pro Git authors and translators",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Git 分支是指向某个提交的轻量可移动指针。",
+        "category": "knowledge",
+        "tags": [
+          "Git",
+          "分支"
+        ]
+      }
+    },
+    {
+      "id": "pub-044",
+      "origin": "public_excerpt",
+      "title": "Git 分布式协作",
+      "language": "en",
+      "body": "In Git, however, every developer is potentially both a node and a hub;",
+      "locator": "Distributed Workflows, introduction",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows",
+        "author": "Pro Git authors and translators",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Git 开发者可以同时作为节点和中心。",
+        "category": "knowledge",
+        "tags": [
+          "Git",
+          "协作"
+        ]
+      }
+    },
+    {
+      "id": "pub-045",
+      "origin": "public_excerpt",
+      "title": "Rust 值的数据类型",
+      "language": "en",
+      "body": "Every value in Rust is of a certain data type,",
+      "locator": "Data Types, first sentence",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://doc.rust-lang.org/book/ch03-02-data-types.html",
+        "author": "The Rust Programming Language authors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Rust 的每个值都有某种数据类型。",
+        "category": "knowledge",
+        "tags": [
+          "Rust",
+          "数据类型"
+        ]
+      }
+    },
+    {
+      "id": "pub-046",
+      "origin": "public_excerpt",
+      "title": "Rust 错误分类",
+      "language": "en",
+      "body": "Rust groups errors into two major categories: recoverable and unrecoverable errors.",
+      "locator": "Error Handling, error categories",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://doc.rust-lang.org/book/ch09-00-error-handling.html",
+        "author": "The Rust Programming Language authors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Rust 将错误区分为可恢复和不可恢复两类。",
+        "category": "knowledge",
+        "tags": [
+          "Rust",
+          "错误处理"
+        ]
+      }
+    },
+    {
+      "id": "pub-047",
+      "origin": "public_excerpt",
+      "title": "Goroutine 的并发模型",
+      "language": "en",
+      "body": "A goroutine has a simple model: it is a function executing concurrently with other goroutines in the same address space.",
+      "locator": "Concurrency / Goroutines",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://go.dev/doc/effective_go",
+        "author": "Go documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "goroutine 是与同地址空间其他 goroutine 并发执行的函数。",
+        "category": "knowledge",
+        "tags": [
+          "Go",
+          "并发"
+        ]
+      }
+    },
+    {
+      "id": "pub-048",
+      "origin": "public_excerpt",
+      "title": "共享数据的同步访问",
+      "language": "en",
+      "body": "Programs that modify data being simultaneously accessed by multiple goroutines must serialize such access.",
+      "locator": "Advice, first paragraph",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://go.dev/ref/mem",
+        "author": "Go documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "修改多个 goroutine 同时访问的数据时，需要串行化这类访问。",
+        "category": "knowledge",
+        "tags": [
+          "Go",
+          "同步"
+        ]
+      }
+    },
+    {
+      "id": "pub-049",
+      "origin": "public_excerpt",
+      "title": "Django 自动提交",
+      "language": "en",
+      "body": "Django’s default behavior is to run in autocommit mode.",
+      "locator": "Django’s default transaction behavior",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://docs.djangoproject.com/en/5.2/topics/db/transactions/",
+        "author": "Django documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "Django 默认运行在自动提交模式。",
+        "category": "knowledge",
+        "tags": [
+          "数据库",
+          "自动提交"
+        ]
+      }
+    },
+    {
+      "id": "pub-050",
+      "origin": "public_excerpt",
+      "title": "缓存计算结果",
+      "language": "en",
+      "body": "To cache something is to save the result of an expensive calculation so that you don’t have to perform the calculation next time.",
+      "locator": "Django’s cache framework, cache definition",
+      "collected_on": "2026-10-22",
+      "split": "test",
+      "source": {
+        "url": "https://docs.djangoproject.com/en/5.2/topics/cache/",
+        "author": "Django documentation contributors",
+        "license_status": "unknown",
+        "license_name": null,
+        "license_url": null,
+        "checked_on": "2026-10-22",
+        "evidence": "2026-10-22 扩充批次：通过网页读取工具读取该页面并按正文定位核对短摘录；行内代码与链接采用渲染后的纯文本。AI 辅助核对，标注待人工复核，未独立认定来源许可。"
+      },
+      "annotation": {
+        "summary_zh": "缓存保存昂贵计算的结果，避免下次重复计算。",
+        "category": "knowledge",
+        "tags": [
+          "缓存",
+          "计算结果"
+        ]
+      }
+    }
+  ]
+}

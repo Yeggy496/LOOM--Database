@@ -215,8 +215,10 @@ class CorpusTests(unittest.TestCase):
     def test_all_seeds_and_candidate_benchmark(self):
         corpus.import_file(self.db,ROOT/'data/public_references.json')
         corpus.import_file(self.db,ROOT/'data/synthetic_inbox.json')
+        corpus.import_file(self.db,ROOT/'data/public_references_2026-10-22_expansion.json')
+        corpus.import_file(self.db,ROOT/'data/synthetic_inbox_2026-10-22_expansion.json')
         report=corpus.check(self.db)
-        self.assertEqual((report['records'],report['public_excerpt'],report['synthetic']),(32,20,12))
+        self.assertEqual((report['records'],report['public_excerpt'],report['synthetic']),(100,50,50))
         self.assertEqual(report['human_verified'],0)
         self.assertEqual(report['status'],'ok')
         result=evaluate(self.db,ROOT/'data/retrieval_benchmark.json')

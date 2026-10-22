@@ -4,7 +4,7 @@
 
 `public_excerpt` 是他人公开技术文档中的短摘录。`synthetic` 是本项目 AI 辅助编写的模拟输入；不来自真实用户，不用于证明真实分布、效果或用户规模。两者的来源约束在数据库和导入器中分别检查。
 
-20 条公开参考来自 Python 文档、SQLite 文档、MDN、Vue 文档、Pro Git、The Rust Programming Language 和 PostgreSQL 文档。每条保存实际页面链接与定位。`author` 中的维护团队名称表示文档归属，不宣称该团队中的某位个人写下了私人笔记。
+50 条公开参考来自 Python 文档、SQLite 文档、MDN、Vue 文档、Pro Git、The Rust Programming Language、PostgreSQL 文档、Go 文档和 Django 文档。每条保存实际页面链接与定位。`author` 中的维护团队名称表示文档归属，不宣称该团队中的某位个人写下了私人笔记。
 
 2026-10-22 使用网页读取工具核对渲染后的文字；代码标记、链接标记不属于所摘录文本。核查是 AI 辅助，页面可能随后变化；工具导入只验证输入合同，不会重新访问网页。`source_checks.status=matched` 表示采集者记录的核查结论，不能由此推断模型质量或使用授权。
 
